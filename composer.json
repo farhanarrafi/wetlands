@@ -1,5 +1,19 @@
 {
+    "name": "farhanarrafi/wetlands",
+    "description": "This project is for sourcing all data related to wetlands in Bangladesh.",
+    "keywords": ["wetlands", "database", "bd", "Bangladesh"],
+    "homepage": "https://wetlands.farhanarrafi.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Farhan Ar Rafi",
+            "email": "farhanarrafi@gmail.com",
+            "homepage": "https://farhanarrafi.com/"
+        }
+    ],
     "require": {
-        "slim/slim": "^3.0"
+        "slim/slim": "^3.0",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17"
     }
 }
