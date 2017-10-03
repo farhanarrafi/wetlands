@@ -4,19 +4,19 @@ use Slim\Http\Response;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-// Instantiate the app
-$settings = require __DIR__ . '/../app/settings/settings.php';
-$app = new \Slim\App($settings);
+// Instantiate the App
+$settings = require __DIR__ . '/../App/Settings/settings.php';
+$app = new Slim\App($settings);
 
-// Set up dependencies
-require __DIR__ . '/../app/dependencies/dependencies.php';
+// Set up Dependency
+require __DIR__ . '/../App/Dependency/dependencies.php';
 
-// Register middleware
-require __DIR__ . '/../app/middleware/middleware.php';
+// Register Middleware
+require __DIR__ . '/../App/Middleware/middleware.php';
 
-// Register routes
-require __DIR__ . '/../app/routes/routes.php';
+// Register Routes
+require __DIR__ . '/../App/Routes/routes.php';
 
-// Run the app
+// Run the App
 $app->run();
 ?>
