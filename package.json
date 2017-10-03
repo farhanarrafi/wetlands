@@ -1,34 +1,27 @@
 {
-  "title": "Bare",
-  "name": "startbootstrap-bare",
-  "version": "4.0.0-beta",
-  "description": "A basic HTML starter template for Bootstrap",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "homepage": "https://startbootstrap.com/template-overviews/bare",
+  "title": "Wetlands of Bangladesh",
+  "name": "farhanarrafi/wetlands",
+  "version": "0.0.1",
+  "description": "This project is for sourcing all data related to wetlands in Bangladesh",
+  "keywords": ["wetlands", "database", "bd", "Bangladesh"],
+  "homepage": "https://wetlands.farhanarrafi.com/",
   "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-bare/issues",
-    "email": "feedback@startbootstrap.com"
+    "url": "https://github.com/farhanarrafi/wetlands/issues",
+    "email": "support@wetlands.farhanarrafi.com"
   },
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": "Farhan Ar Rafi",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    "Farhan Ar Rafi (https://farhanarrafi.com/)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-bare.git"
+    "url": "https://github.com/farhanarrafi/wetlands.git"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "jquery": "^3.2.1",
-    "popper.js": "^1.11.1"
+    "popper.js": "^1.11.1",
   },
   "devDependencies": {
     "browser-sync": "2.18.13",
