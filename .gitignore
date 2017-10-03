@@ -1,0 +1,9 @@
+.idea/
+vendor/
+node_modules/
+npm-debug.log
+
+# keep some hiddens
+!.htaccess
+!/.gitignore
+!/.travis.yml
